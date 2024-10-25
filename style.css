@@ -1,0 +1,66 @@
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 3rem;
+    cursor: pointer;
+    /* position: relative; */
+    background-color: rgba(199, 198, 198, 1);
+    box-shadow: 1px 1px 5px white;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: rgb(160, 159, 159);
+  }
+  
+  #clearButton {
+    background-color: rgb(253, 119, 119);
+  }
+  button#clearButton:hover {
+    background-color: rgb(244, 70, 70);
+  }
+  #taste {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  #calculator {
+    max-width: 500px;
+    overflow: hidden;
+    background-color: gray;
+    border-radius: 20px;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #display {
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    background-color: rgb(188, 186, 186);
+    border: none;
+  }
+  /* #egalBtn {
+    position: absolute;
+    right: 50px;
+    bottom: 35px;
+  } */
+  #eqBtn {
+    background-color: rgb(45, 45, 45);
+    color: white;
+  }
+  
+  #eqBtn:hover {
+    background-color: black;
+  }
+  
